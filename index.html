@@ -6,26 +6,33 @@
 
 <body>
 <div id="splash">
-	<img src="images/splashNYC.JPG" style="width:100%">
-	<h1> Unprepared</h1>
-	<h2> Getting ready for the next Sandy</h2>
+	<img src="images/splashNYC.JPG" style="width:100%, height: 50%">
+	<h1> Unprepared<br>
+	<span style="font-size: 70px;
+	font-family: arial;
+	font-variant: bold;
+	color: #BDC3C7;">Getting ready for the next Sandy</span></h1>
 </div>
-<p class="byline"> by Joseph Jaafari and Janae Hunter </p>
+<p class="byline"> <i>by Joseph Jaafari and Janae Hunter </i><br>May 15, 2016</p>
 
 <hr>
-
-<h3> It's going to be sink or swim for thousands of residents who are now being placed in flood zones starting next year. Are you prepared? </h2>
-
+<div id="nobr">
+<h3>It's going to be<span style="font-family: arial;
+	color: black; font-size:60px;"> sink</span> or <span style="font-family: arial;
+	color: black; font-size:60px;"> swim </span> for thousands of residents who are now being placed in flood zones starting next year. Are you prepared?</h3>
+</div>
 <hr>
 
 
-<p> Some city residents aren't ready for the next flood -- and why should they? A hefty chunk of people who have been palced within The Federal Emergency Management Agency's new flood zones have never seen a flood. 
+<p> Some city residents aren't ready for the next flood -- and why should they? A hefty chunk of people who have been placed within The Federal Emergency Management Agency's new flood zones have never seen a flood. 
 	
 <p>The Preliminary Flood Insurance Rate maps were first introduced by FEMA back in 2013, the first time the maps had been updated since the 1980s. But that doesn't mean much to residents who say they've never had to face a flood, and definitely aren't prepared in the event their neighborhood does face rising waters.
 
 <div id="video">
 	<iframe src="https://www.youtube.com/embed/oRXP5YkfVB4" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<hr>
 
 <p>The new maps, which includes all NYC coastlines and parts of inland Queens, Brooklyn, and Manhattan, add about 400,000 homeowners and more than 70,000 structures to 100-year-floodplains, which are areas where a 1 percent chance of flooding during any giving storm is possible.  
 
@@ -37,7 +44,7 @@
 
 <h3> To see if you are in a flood zone and know your risk, type in your zip code below. </h3>
 
-<div id="asylumCalculator">
+<div id="calculator">
 	<!--<p id="prompt">Type your zip code:</p>-->
 	<input id="zipCode" type="number"></input>
 	<button id="calc">Are you at risk?</button>
@@ -47,6 +54,8 @@
 	<br>
 	<div id="type"></div>
 </div>
+
+<p class="source"> Image courtesy of David Shankbone, archival footage courtesy of Michael Bloomberg, Invincible Don 1, Junii Waves. Filming done by Janae Hunter, editing by Joseph Jaafari. </p>
 
 <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js">
 <script src="landUse.js"></script>
