@@ -33,9 +33,19 @@ h3 {
 	color: #EC7063;
 }
 
-.nobr {
-	white-space: nowrap;
+#flood {
+	font-family: arial;
+	font-variant: bold;
+	font-size: 24px;
+	padding-left: 50px;
 
+}
+
+#type {
+	font-family: arial;
+	font-variant: bold;
+	font-size: 24px;
+	padding-left: 50px;
 }
 
 p {

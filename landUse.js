@@ -15,7 +15,7 @@ var lookup = function(zip) {
                 console.log(results);
 
                 $("#flood").html("Are you in a flood zone? " +  results.flood);
-                $("#type").html("What is your risk?" + results.type);
+                $("#type").html("What is your risk? " + results.type);
             })
 
             .error(function(errors) {
