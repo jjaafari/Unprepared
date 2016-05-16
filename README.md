@@ -1,3 +1,4 @@
+
 Unprepared: Getting New Yorkers ready for the next flood
 
 Reporting done by Janae Hunter and Joseph Jaafari
@@ -10,3 +11,4 @@ Interactive element: type in your zip code and see if you now live in a flood zo
 
 SUMMARY:
 The Preliminary Flood Insurance Rate maps were first introduced by FEMA back in 2013, the first time the maps had been updated since the 1980s. But that doesn't mean much to residents who say they've never had to face a flood, and definitely aren't prepared in the event their neighborhood does face rising waters.
+
