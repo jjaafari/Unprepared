@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" type"css" href="landUse.css">
+
+</head>
+
+<body>
+<div id="splash">
+	<img src="images/splashNYC.JPG" style="width:100%">
+	<h1> Unprepared</h1>
+	<h2> Getting ready for the next Sandy</h2>
+</div>
+<p class="byline"> by Joseph Jaafari and Janae Hunter </p>
+
+<hr>
+
+<h3> It's going to be sink or swim for thousands of residents who are now being placed in flood zones starting next year. Are you prepared? </h2>
+
+<hr>
+
+
+<p> Some city residents aren't ready for the next flood -- and why should they? A hefty chunk of people who have been palced within The Federal Emergency Management Agency's new flood zones have never seen a flood. 
+	
+<p>The Preliminary Flood Insurance Rate maps were first introduced by FEMA back in 2013, the first time the maps had been updated since the 1980s. But that doesn't mean much to residents who say they've never had to face a flood, and definitely aren't prepared in the event their neighborhood does face rising waters.
+
+<div id="video">
+	<iframe src="https://www.youtube.com/embed/oRXP5YkfVB4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<p>The new maps, which includes all NYC coastlines and parts of inland Queens, Brooklyn, and Manhattan, add about 400,000 homeowners and more than 70,000 structures to 100-year-floodplains, which are areas where a 1 percent chance of flooding during any giving storm is possible.  
+
+
+<p>The rezoning was based on previous storm records, including those from Hurricane Sandy, which devastated many neighborhoods, especially those along the coast.  FEMA's new rezoned maps would force homeowners to pay new insurance costs between $5,000 and $10,000 a year, even though there is a small chance their area will flood.
+
+<p>The mayor's office responded to FEMA's proposed maps, saying the changes overestimate the potential flood risks. </p>
+
+
+<h3> To see if you are in a flood zone and know your risk, type in your zip code below. </h3>
+
+<div id="asylumCalculator">
+	<!--<p id="prompt">Type your zip code:</p>-->
+	<input id="zipCode" type="number"></input>
+	<button id="calc">Are you at risk?</button>
+	<br>
+	<br>
+	<div id="flood"></div>
+	<br>
+	<div id="type"></div>
+</div>
+
+<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js">
+<script src="landUse.js"></script>
+</body>
+
+</html>
