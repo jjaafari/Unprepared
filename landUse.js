@@ -6,7 +6,7 @@ var lookup = function(zip) {
             user: 'josephjaafari'
         });
 
-        sql.execute("SELECT flood FROM zipcode WHERE zip = {{zip}}", {
+        sql.execute("SELECT flood,type FROM zipcode WHERE zip = {{zip}}", {
             zip: zip
         })
             .done(function(data) {
@@ -15,7 +15,7 @@ var lookup = function(zip) {
                 console.log(results);
 
                 $("#flood").html("Are you in a flood zone? " +  results.flood);
-                $("#type").html("What is your risk? " + resul0ts.type);
+                $("#type").html("What is your risk? " + results.type);
             })
 
             .error(function(errors) {
